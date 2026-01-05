@@ -1,0 +1,12 @@
+option,error_type,count
+op1,out of range,121
+op1,invalid enum,37
+op1,invalid format,15
+op1,wrong type,9
+op1,logical contradiction,18
+op2,out of range,77
+op2,invalid enum,34
+op2,wrong type,10
+op2,invalid format,10
+op2,missing value,9
+op2,logical contradiction,60
