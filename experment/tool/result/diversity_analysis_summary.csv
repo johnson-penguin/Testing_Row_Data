@@ -1,3 +1,0 @@
-option,num_cases,error_type_norm_entropy,param_coverage_norm_entropy,unique_params_tested
-op1,200,0.6512,0.9425,99
-op2,200,0.8199,0.9392,101
