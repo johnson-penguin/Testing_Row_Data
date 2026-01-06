@@ -1,0 +1,26 @@
+======================================================================
+5G gNB/OAI Log Analysis - Detailed Summary
+======================================================================
+
+Total files analyzed: 200
+
+Severity Distribution:
+----------------------------------------------------------------------
+  Severity 0 - No Error (正常): 145 (72.5%)
+  Severity 1 - Component Crash (崩潰): 31 (15.5%)
+  Severity 2 - Component Abnormal (異常運行): 17 (8.5%)
+  Severity 3 - UE Connection Failed (UE 連線失敗): 7 (3.5%)
+
+======================================================================
+
+High Confidence (>= 0.85): 176 cases
+Low Confidence (< 0.60): 1 cases
+
+Cases requiring manual review (low confidence):
+----------------------------------------------------------------------
+
+op1_100_case_1/option_1_case_31_logs.json
+  Severity: 2, Confidence: 0.5
+  Component: DU
+  Summary: 可能異常：配置錯誤 (out of range) 在 DU_case_031.json，但 log 中無明確崩潰或失敗訊息
+  Evidence: Config error: out of range, Impact: Invalid DL-UL transmission periodicity
