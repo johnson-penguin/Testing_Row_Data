@@ -1,3 +1,0 @@
-Option,TTR,DomainDensity,AvgJaccard,NumModules,UniqueErrors
-Option 1 (Baseline),0.24516403607924253,0.037200426507534815,1.0,2.69,5.36
-Option 2 (Context),0.2844646538711349,0.046655185237990705,1.0,2.27,4.45
